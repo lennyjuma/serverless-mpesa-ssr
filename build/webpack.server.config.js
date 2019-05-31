@@ -14,7 +14,7 @@ module.exports = merge(base, {
   },
   resolve: {
     alias: {
-      'create-api': './create-api-server.js'
+      'axios-client': './axios-server.js'
     }
   },
   // https://webpack.js.org/configuration/externals/#externals
